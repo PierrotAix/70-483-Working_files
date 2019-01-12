@@ -24,7 +24,7 @@ namespace Test_LambdaExpresion
         {
             InitializeComponent();
             ClickMeButon.Click += 
-                delegate (object sender, RoutedEventArgs e)
+                (object sender, RoutedEventArgs e) =>
                 {
                     MessageBox.Show("Bonjour le monde !");
                 };

@@ -22,7 +22,8 @@ namespace SerialisationJSON
 
             // creation d'instance
             Person p = new Person();
-            p.name = "Pierre";
+            p.name = "Pierre"; // c
+
             p.age = 52;
 
             // serialsation

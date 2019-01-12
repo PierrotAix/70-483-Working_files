@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MSTest Test Method</Title>
+      <Author>Alan Larimer</Author>
+      <Description>Creates an MSTest test method.</Description>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Keywords>
+        <Keyword>test</Keyword>
+        <Keyword>unit test</Keyword>
+        <Keyword>test method</Keyword>
+      </Keywords>
+      <Shortcut>tm</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>method</ID>
+          <ToolTip>Method being tested: DetermineCategory</ToolTip>
+          <Default>MethodName</Default>
+        </Literal>
+        <Literal>
+          <ID>condition</ID>
+          <ToolTip>Condition being tested: AgeIsLessThan18 or RequestIsNull</ToolTip>
+          <Default>ConditionUnderTest</Default>
+        </Literal>
+        <Literal>
+          <ID>result</ID>
+          <ToolTip>Result that is expected: ReturnsMinor or ThrowsInvalidRequest</ToolTip>
+          <Default>ExpectedResult</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp" Kind="method body">
+        <![CDATA[[TestMethod]
+        public void $method$_$condition$_$result$$end$()
+        {
+            // arrange
+            var expected = 0;
+            // act
+            var actual = 0;
+            // assert
+            Assert.AreEqual(expected, actual);
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

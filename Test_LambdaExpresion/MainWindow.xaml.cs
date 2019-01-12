@@ -24,7 +24,7 @@ namespace Test_LambdaExpresion
         {
             InitializeComponent();
             ClickMeButon.Click += 
-                (sender, e) =>
+                (s, e) =>
                 {
                     MessageBox.Show("Bonjour le monde !");
                 };

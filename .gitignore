@@ -8,7 +8,7 @@
 *.sln.docstates
 
 ## Début test PDE
-*.sln
+##*.sln
 ## fin test PDE
 
 # User-specific files (MonoDevelop/Xamarin Studio)

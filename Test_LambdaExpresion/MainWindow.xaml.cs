@@ -23,11 +23,7 @@ namespace Test_LambdaExpresion
         public MainWindow()
         {
             InitializeComponent();
-            ClickMeButon.Click += 
-                (s, e) =>
-                {
-                    MessageBox.Show("Bonjour le monde !");
-                };
+            ClickMeButon.Click += (s, e) =>  MessageBox.Show("Bonjour le monde !");
         }
     }
 }

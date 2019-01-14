@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_StringFormatter", "Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_CSharp7", "Test_CSharp7\Test_CSharp7.csproj", "{5CBB186D-4F49-4BFD-A66F-D3CF74C56515}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_LINQ_to_XML", "Test_LINQ_to_XML\Test_LINQ_to_XML.csproj", "{399E4734-8C08-422D-8B37-E78FC5DC19A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Enum", "Test_Enum\Test_Enum.csproj", "{FF60958D-CA63-446D-B5D1-784C11216E21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{5CBB186D-4F49-4BFD-A66F-D3CF74C56515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CBB186D-4F49-4BFD-A66F-D3CF74C56515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CBB186D-4F49-4BFD-A66F-D3CF74C56515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399E4734-8C08-422D-8B37-E78FC5DC19A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399E4734-8C08-422D-8B37-E78FC5DC19A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399E4734-8C08-422D-8B37-E78FC5DC19A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399E4734-8C08-422D-8B37-E78FC5DC19A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF60958D-CA63-446D-B5D1-784C11216E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF60958D-CA63-446D-B5D1-784C11216E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF60958D-CA63-446D-B5D1-784C11216E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF60958D-CA63-446D-B5D1-784C11216E21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

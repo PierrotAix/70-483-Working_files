@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Theater>
+  <Movie Title="The Hobbit: an Unexpected Journey" Rating="PG-13" ReleaseDate="1987" />
+  <Movie Title="The Croods" Rating="PG" ReleaseDate="" />
+  <Movie Title="Escape from Planet Earth" Rating="PG" ReleaseDate="" />          
+</Theater>
